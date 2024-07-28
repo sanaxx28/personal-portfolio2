@@ -68,20 +68,7 @@ const Achievements = () => {
               ))}
             </div>
             <div className="flex justify-end mb-4">
-              <button
-                onClick={handlePrev}
-                disabled={currentIndex === 0}
-                className="p-2 bg-gray-700 rounded-full disabled:opacity-50 mx-2"
-              >
-                &lt;
-              </button>
-              <button
-                onClick={handleNext}
-                disabled={isNextDisabled}
-                className="p-2 bg-gray-700 rounded-full disabled:opacity-50 mx-2"
-              >
-                &gt;
-              </button>
+              
             </div>
           </div>
         </div>

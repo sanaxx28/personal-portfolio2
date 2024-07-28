@@ -35,7 +35,11 @@ import {
   cori,
   tedx,
   embs,
-  cent
+  cent,
+  skin,
+  rtficon,
+  wiz,
+  artf
 } from "../assets";
 
 import {
@@ -149,35 +153,35 @@ export const educationList = [
 export const achievements = [
   {
     id: "a-1",
-    icon: ethglobal,
-    event: "ETHIndia'22 | World's Largest Ethereum Hackathon",
+    icon: rtficon,
+    event: "RIT TechFest 2023 | Annual IEEE Technical Fest",
     position: "Winner",
-    content1: "Top 12 winners among 20k+ registrations",
-    content2: "One of Polygon's Best Public Goods",
-    content3: "Best Module on Biconomy SDK",
-    article: "https://www.thehindu.com/news/cities/Mangalore/nitk-iiit-delhi-team-makes-it-to-top-12-winners-in-ethindia-22/article66238923.ece",
-    project: "https://devfolio.co/projects/chargeswap-3527",
-    youtube: "https://youtu.be/9rieTya8Yds?t=3908",
+    content1: "Winning team out of 20+ teams across universities in Bangalore",
+    //content2: "One of Polygon's Best Public Goods",
+    //content3: "Best Module on Biconomy SDK",
+    //article: "https://www.thehindu.com/news/cities/Mangalore/nitk-iiit-delhi-team-makes-it-to-top-12-winners-in-ethindia-22/article66238923.ece",
+    //project: "https://devfolio.co/projects/chargeswap-3527",
+    //youtube: "https://youtu.be/9rieTya8Yds?t=3908",
   },
   {
     id: "a-2",
-    icon: polkadot,
-    event: "Polkadot Hackathon: Europe Edition",
-    position: "2nd Runner Up in the ink! Smart Contract Category",
-    content1: "Built GreenTrust offering a novel solution for obtaining certification in organic farming.",
+    icon: artf,
+    event: "Art Factory Street Art Contest",
+    position: "Winner",
+    content1: "Best chalk art out of 100+ submissions",
     content2: "",
     content3: "",
-    github: "https://github.com/pranav2305/GreenTrust",
+    //github: "https://github.com/pranav2305/GreenTrust",
   },
   {
     id: "a-3",
-    icon: lightspeed,
-    event: "Warpspeed by Lightspeed",
-    position: "1st Runner Up",
-    content1: "1st Runner Up Overall by Lightspeed among 107 hackers",
-    content2: "Top 3 projects using Replit",
-    content3: "1st Runner Up by Amazon Web Services (AWS)",
-    article: "https://shorturl.at/fhjsT",
+    icon: wiz,
+    event: "Wiz National Spelling Bee",
+    position: "State Level Champion",
+    content1: "One of the top 50 students across India selected for nationals",
+    //content2: "",
+    //content3: "1st Runner Up by Amazon Web Services (AWS)",
+    //article: "https://shorturl.at/fhjsT",
   },
 ];
 
@@ -580,45 +584,35 @@ export const openSourceContributions = [
 export const projects = [
   {
     id: "project-1",
-    title: "Comicify.ai",
-    github: "https://github.com/ayush4345/Comicify.ai",
-    link: "https://comicify-ai.vercel.app/",
-    image: comicify_ai,
+    title: "Skin Cancer Detector",
+    //github: "https://github.com/ayush4345/Comicify.ai",
+    //link: "",
+    image: skin,
     content:
-      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
+      "Implemented CNN architectures integrated with Particle Swarm Optimisation Algorithm to classify skin lesion images as malignant or benign.",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
+        icon: SiPython,
+        name: "Python"
       },
       {
         id: "icon-3",
-        icon: SiOpenai,
-        name: "OpenAI"
+        icon: SiKeras,
+        name: "Keras"
       },
       {
         id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform"
-      },
-      {
-        id: "icon-5",
-        icon: SiFlask,
-        name: "Flask"
+        icon: SiTensorflow,
+        name: "Tensorflow"
       },
     ],
   },
   {
     id: "project-10",
     title: "Portfolio",
-    github: "https://github.com/mittal-parth/personal-portfolio",
-    link: "https://parthmittal.netlify.app/",
+    github: "https://github.com/sanaxx28/personal-portfolio2/tree/main-edit1",
+    link: "",
     image: portfolio,
     content: "Personal portfolio website with React and Tailwind CSS.",
     stack: [
@@ -794,5 +788,5 @@ export const socialMedia = [
 export const aboutMe = {
     name: "Sana Ayesha",
     tagLine: "SWE Fellow @Headstarter AI | MSRIT '25 | TEDxMSRIT Core",
-    intro: "Software Developer from India you can catch crafting code, weaving words or freezing moments anytime."
+    intro: "Software Developer from India you can catch crafting code, weaving words or freezing moments any second of the day."
 }
