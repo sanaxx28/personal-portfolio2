@@ -47,6 +47,18 @@ import dennisivy from "./dennisivy.png";
 import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
+import sapp from "./sapp.jpg";
+import saq from "./saq.png";
+import rit from "./RIT_logo.png";
+import hai from "./hai.jpg";
+import fwi from "./fwicon.png";
+import cori from "./cori.png";
+import tedx from "./logo-white.png";
+import embs from "./embs.png";
+import cent from "./centuriton_logo.jpg";
+
+
+
 
 export {
   quotes,
@@ -97,5 +109,14 @@ export {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
+  sapp,
+  saq,
+  rit,
+  hai,
+  fwi,
+  cori,
+  tedx,
+  embs,
+  cent
 };
