@@ -154,7 +154,7 @@ export const achievements = [
   {
     id: "a-1",
     icon: rtficon,
-    event: "RIT TechFest 2023 | Annual IEEE Technical Fest",
+    event: "RIT TechFest 2023",
     position: "Winner",
     content1: "Winning team out of 20+ teams across universities in Bangalore",
     //content2: "One of Polygon's Best Public Goods",
@@ -166,7 +166,7 @@ export const achievements = [
   {
     id: "a-2",
     icon: artf,
-    event: "Art Factory Street Art Contest",
+    event: "Art Factory Street Art Contest 2020",
     position: "Winner",
     content1: "Best chalk art out of 100+ submissions",
     content2: "",
@@ -176,7 +176,7 @@ export const achievements = [
   {
     id: "a-3",
     icon: wiz,
-    event: "Wiz National Spelling Bee",
+    event: "Wiz National Spelling Bee 2017",
     position: "State Level Champion",
     content1: "One of the top 50 students across India selected for nationals",
     //content2: "",
@@ -365,7 +365,7 @@ export const experiences = [
     positions: [
       {
         title: "Research Intern",
-        duration: "Sept 2023 - Oct 2023",
+        duration: "Sep 2023 - Oct 2023",
         content: [
           {
             text: "Compiled detailed reports highlighting key metrics and outcomes of virtual Surgery Planning(VSP) cases, for funding proposals and pitch decks.",
