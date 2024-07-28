@@ -351,7 +351,7 @@ export const experiences = [
         duration: "Jul 2022 - Present",
         content: [
           {
-            text: "Created content for websites of small businesses, start ups and other clients.",
+            text: "Created content for websites of 20+ small businesses, start ups and other clients.",
             link: "",
           },
         ],
