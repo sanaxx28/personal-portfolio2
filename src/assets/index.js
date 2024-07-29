@@ -57,7 +57,7 @@ import tedx from "./logo-white.png";
 import embs from "./embs.png";
 import cent from "./centuriton_logo.jpg";
 import skin from "./skin.jpg";
-import rtficon from "./rtficon.png";
+import rtficon from "./rtfi.png"; 
 import wiz from "./wiz.png";
 import artf from "./artf.png";
 
