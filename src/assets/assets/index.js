@@ -59,7 +59,7 @@ import cent from "./centuriton_logo.jpg";
 import skin from "./skin.jpg";
 import rtficon from "./rtficon.png";
 import wiz from "./wiz.png";
-import artf from "./artf.png";
+import artf from "artf.png";
 
 
 
