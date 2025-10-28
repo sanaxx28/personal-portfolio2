@@ -41,7 +41,8 @@ import {
   wiz,
   artf,
   slgs_logo,
-  asthma
+  asthma,
+  heart
 } from "../assets";
 
 import {
@@ -93,6 +94,7 @@ import {
   SiKeras,
   SiTensorflow,
   SiGooglecolab, 
+  SiPytorch
 } from "react-icons/si";
 
 
@@ -114,7 +116,7 @@ import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 export const resumeLink = "https://drive.google.com/file/d/1UWQLIYFF_eyOvXEoXkDrIH6O9tSBW7ry/view?usp=sharing";
 export const repoLink = "https://github.com/sanaxx28/personal-portfolio2";
 
-export const callToAction = "https://www.linkedin.com/in/sana-ayesha-7a54b1218/";
+export const callToAction = "https://www.linkedin.com/in/sana-ayesha-qazi-7a54b1218/";
 
 export const navLinks = [
   {
@@ -290,11 +292,11 @@ export const skills = [
         icon: AiFillGithub,
         name: "GitHub",
       },
-      {
-        id: "t-6",
-        icon: AiOutlineGitlab,
-        name: "Gitlab",
-      },
+      // {
+      //   id: "t-6",
+      //   icon: AiOutlineGitlab,
+      //   name: "Gitlab",
+      // },
       {
         id: "t-7",
         icon: SiNetlify,
@@ -587,8 +589,41 @@ export const openSourceContributions = [
 ];
 
 export const projects = [
+
+ 
   {
-    id: "project-1",
+    id: "project-2",
+    title: "Digital Twin Platform for Cardiology",
+    github: "https://github.com/acxxxqlf/ONL426_Code_Blooded",
+    //link: "",
+    image: heart,
+    content:
+      "Implemented CNN architectures integrated with Particle Swarm Optimisation Algorithm to classify skin lesion images as malignant or benign.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiPython,
+        name: "Python"
+      },
+      {
+        id: "icon-3",
+        icon: SiKeras,
+        name: "Keras"
+      },
+      {
+        id: "icon-4",
+        icon: SiTensorflow,
+        name: "Tensorflow"
+      },
+      {
+        id: "icon-5",
+        icon: SiPytorch,
+        name: "PyTorch"
+      },
+    ],
+  },
+    {
+    id: "project-3",
     title: "Real-Time Asthma Monitoring Device",
     //github: "https://github.com/ayush4345/Comicify.ai",
     //link: "",
@@ -614,7 +649,32 @@ export const projects = [
       // },
     ],
   },
-  {
+  // {
+  //   id: "project-10",
+  //   title: "Portfolio",
+  //   github: "https://github.com/sanaxx28/personal-portfolio2/tree/main-edit1",
+  //   link: "",
+  //   image: portfolio,
+  //   content: "Personal portfolio website with React and Tailwind CSS.",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiReact,
+  //       name: "React"
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: SiTailwindcss,
+  //       name: "Tailwind CSS"
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: AiFillHtml5,
+  //       name: "HTML"
+  //     },
+  //   ],
+  // },
+   {
     id: "project-2",
     title: "Skin Cancer Detector",
     //github: "https://github.com/ayush4345/Comicify.ai",
@@ -637,31 +697,6 @@ export const projects = [
         id: "icon-4",
         icon: SiTensorflow,
         name: "Tensorflow"
-      },
-    ],
-  },
-  {
-    id: "project-10",
-    title: "Portfolio",
-    github: "https://github.com/sanaxx28/personal-portfolio2/tree/main-edit1",
-    link: "",
-    image: portfolio,
-    content: "Personal portfolio website with React and Tailwind CSS.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS"
-      },
-      {
-        id: "icon-3",
-        icon: AiFillHtml5,
-        name: "HTML"
       },
     ],
   },

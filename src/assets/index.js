@@ -62,6 +62,7 @@ import wiz from "./wiz.png";
 import artf from "./artf.png";
 import slgs_logo from "./slgs_logo.jpeg";
 import asthma from "./asthma.png";
+import heart from "./heart.png";
 
 
 
@@ -129,5 +130,6 @@ export {
   wiz,
   artf,
   slgs_logo,
-  asthma
+  asthma,
+  heart
 };
