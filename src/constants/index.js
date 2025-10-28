@@ -53,6 +53,7 @@ import {
 } from "react-icons/ai";
 
 import {
+  SiIntellijidea,
   SiDjango,
   SiJavascript,
   SiBootstrap,
@@ -88,7 +89,8 @@ import {
   SiMicrosoftazure,
   SiKeras,
   SiTensorflow,
-  SiGooglecolab 
+  SiGooglecolab, 
+  SiEdgeimpulse
 } from "react-icons/si";
 
 import {
@@ -106,7 +108,7 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1m0C4s2SF7IkL-TYgYlOjI32OxQQu8uTw/view?usp=sharing";
+export const resumeLink = "https://drive.google.com/file/d/1UWQLIYFF_eyOvXEoXkDrIH6O9tSBW7ry/view?usp=sharing";
 export const repoLink = "https://github.com/sanaxx28/personal-portfolio2";
 
 export const callToAction = "https://www.linkedin.com/in/sana-ayesha-7a54b1218/";
@@ -144,7 +146,7 @@ export const educationList = [
     icon: rit,
     title: "Ramaiah Institute of Technology, Bangalore",
     degree: "Bachelor of Engineering",
-    duration: "December 2021 - May 2025",
+    duration: "December 2021 - July 2025",
     content1: "Major: Medical Electronics Engineering",
     //content2: "Minor: Information Technology",
   },
@@ -273,8 +275,19 @@ export const skills = [
 
       {
         id: "t-4",
+        icon: SiPostman,
+        name: "Postman",
+      },
+
+      {
+        id: "t-4",
         icon: SiVisualstudiocode,
         name: "VS Code",
+      },
+      {
+        id: "t-6",
+        icon: SiIntellijidea,
+        name: "IntelliJ IDEA",
       },
       {
         id: "t-5",
@@ -307,20 +320,20 @@ export const skills = [
 
 export const experiences = [
   {
-    organisation: "Headstarter AI, USA",
-    logo: hai,
-    link: "https://headstarter.co/",
+    organisation: "Sun Life Global Solutions, India",
+    logo: slgs_logo,
+    link: "https://www.sunlife.com/slgs/en/",
     positions: [
       {
-        title: "Software Engineering Fellow",
-        duration: "Jul 2024 - Present",
+        title: "Graduate Engineer Trainee",
+        duration: "Jul 2025 - Present",
         content: [
           {
-            text: "Building 5 AI projects in 5 weeks.",
-            link: "",
+            text: "Working in the Data Engineering team for Canada IT.",
+            link: "Collaborating on a POC leveraging AI agents to automate insurance claims processing.",
           },
           {
-            text: "Developing personal brand, vision, network and technical skills via hackathons, webinars and projects.",
+            text: "",
             link: ""
           }
         ],
@@ -333,22 +346,23 @@ export const experiences = [
     link: "https://corescent.in/",
     positions: [
       {
-        title: "Front End Developer Intern",
-        duration: "Jan 2024 - Mar 2024",
+        title: "Project Intern",
+        duration: "Apr 2025 - Jun 2025",
         content: [
+          {
+            text: "Developed an AI-powered coding assistant chatbot for Internast using Next.js and OpenAI APIs, enabling users to get real-time help with coding assignments and queries.",
+            link: "",
+          },
           {
             text: "Designed and implemented responsive interfaces for an internship platform, Internast using HTML, CSS and JavaScript.",
             link: "",
           },
-          {
-            text: "",
-            link: "",
-          },
+          
         ],
       },
       {
         title: "Content Writer",
-        duration: "Jul 2022 - Present",
+        duration: "Jul 2022 - Jul 2025",
         content: [
           {
             text: "Created content for websites of 20+ small businesses, start ups and other clients.",
@@ -584,6 +598,32 @@ export const openSourceContributions = [
 export const projects = [
   {
     id: "project-1",
+    title: "Real-Time Asthma Monitoring Device",
+    //github: "https://github.com/ayush4345/Comicify.ai",
+    //link: "",
+    image: skin,
+    content:
+      "Designed a low-cost wearable device for real-time asthma monitoring by integrating physiological, environmental and audio sensors.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiPython,
+        name: "Python"
+      },
+      {
+        id: "icon-3",
+        icon: SiEdgeimpulse,
+        name: "Edge Impulse"
+      },
+      // {
+      //   id: "icon-4",
+      //   icon: SiTensorflow,
+      //   name: "Tensorflow"
+      // },
+    ],
+  },
+  {
+    id: "project-2",
     title: "Skin Cancer Detector",
     //github: "https://github.com/ayush4345/Comicify.ai",
     //link: "",
@@ -787,6 +827,6 @@ export const socialMedia = [
 
 export const aboutMe = {
     name: "Sana Ayesha",
-    tagLine: "SWE Fellow @Headstarter AI | MSRIT '25 | TEDxMSRIT Core",
+    tagLine: "GET @SLGS India | MSRIT '25",
     intro: "Software Developer from India you can catch crafting code, weaving words or freezing moments any second of the day."
 }
