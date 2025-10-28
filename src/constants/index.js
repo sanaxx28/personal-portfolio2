@@ -40,7 +40,8 @@ import {
   rtficon,
   wiz,
   artf,
-  slgs_logo
+  slgs_logo,
+  asthma
 } from "../assets";
 
 import {
@@ -52,6 +53,7 @@ import {
   AiFillHtml5,
   AiOutlineGitlab,
 } from "react-icons/ai";
+
 
 import {
   SiIntellijidea,
@@ -91,8 +93,8 @@ import {
   SiKeras,
   SiTensorflow,
   SiGooglecolab, 
-  SiEdgeimpulse
 } from "react-icons/si";
+
 
 import {
   FaHardHat,
@@ -263,55 +265,43 @@ export const skills = [
   {
     title: "Tools",
     items: [
-      {
+       {
         id: "t-1",
-        icon: SiGooglecolab,
-        name: "Google Colab",
-      },
-      {
-        id: "t-2",
         icon: SiMysql,
         name: "MySQL",
       },
-
       {
-        id: "t-4",
+        id: "t-2",
         icon: SiPostman,
         name: "Postman",
       },
-
       {
-        id: "t-4",
+        id: "t-3",
         icon: SiVisualstudiocode,
         name: "VS Code",
       },
       {
-        id: "t-6",
-        icon: SiIntellijidea,
-        name: "IntelliJ IDEA",
-      },
-      {
-        id: "t-5",
+        id: "t-4",
         icon: SiGit,
         name: "Git",
       },
       {
-        id: "t-6",
+        id: "t-5",
         icon: AiFillGithub,
         name: "GitHub",
       },
       {
-        id: "t-7",
+        id: "t-6",
         icon: AiOutlineGitlab,
         name: "Gitlab",
       },
       {
-        id: "t-8",
+        id: "t-7",
         icon: SiNetlify,
         name: "Netlify",
       },
       {
-        id: "t-9",
+        id: "t-8",
         icon: SiVite,
         name: "ViteJS",
       },
@@ -331,10 +321,10 @@ export const experiences = [
         content: [
           {
             text: "Working in the Data Engineering team for Canada IT.",
-            link: "Collaborating on a POC leveraging AI agents to automate insurance claims processing.",
+            link: "",
           },
           {
-            text: "",
+            text: "Collaborating on a POC leveraging AI agents to automate insurance claims processing.",
             link: ""
           }
         ],
@@ -602,7 +592,7 @@ export const projects = [
     title: "Real-Time Asthma Monitoring Device",
     //github: "https://github.com/ayush4345/Comicify.ai",
     //link: "",
-    image: skin,
+    image: asthma,
     content:
       "Designed a low-cost wearable device for real-time asthma monitoring by integrating physiological, environmental and audio sensors.",
     stack: [
@@ -611,11 +601,12 @@ export const projects = [
         icon: SiPython,
         name: "Python"
       },
-      {
-        id: "icon-3",
-        icon: SiEdgeimpulse,
-        name: "Edge Impulse"
-      },
+      // {
+      //   id: "icon-3",
+      //   icon: SiEdgeimpulse,
+      //   name: "Edge Impulse"
+      // },
+      
       // {
       //   id: "icon-4",
       //   icon: SiTensorflow,

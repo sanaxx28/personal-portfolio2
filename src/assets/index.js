@@ -60,6 +60,8 @@ import skin from "./skin.jpg";
 import rtficon from "./rtfi.png"; 
 import wiz from "./wiz.png";
 import artf from "./artf.png";
+import slgs_logo from "./slgs_logo.jpeg";
+import asthma from "./asthma.png";
 
 
 
@@ -125,5 +127,7 @@ export {
   skin,
   rtficon,
   wiz,
-  artf
+  artf,
+  slgs_logo,
+  asthma
 };
