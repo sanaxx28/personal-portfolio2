@@ -39,7 +39,8 @@ import {
   skin,
   rtficon,
   wiz,
-  artf
+  artf,
+  slgs_logo
 } from "../assets";
 
 import {
