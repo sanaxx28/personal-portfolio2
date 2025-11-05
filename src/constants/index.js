@@ -42,8 +42,7 @@ import {
   artf,
   slgs_logo,
   asthma,
-  heart,
-  IMG_6915
+  heart
 } from "../assets";
 
 import {
