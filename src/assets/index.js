@@ -63,8 +63,7 @@ import artf from "./artf.png";
 import slgs_logo from "./slgs_logo.jpeg";
 import asthma from "./asthma.png";
 import heart from "./heart.png";
-
-
+import IMG_6915 from "./IMG_6915.png";
 
 export {
   quotes,
@@ -131,5 +130,6 @@ export {
   artf,
   slgs_logo,
   asthma,
-  heart
+  heart,
+  IMG_6915
 };

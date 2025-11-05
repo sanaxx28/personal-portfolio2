@@ -42,7 +42,8 @@ import {
   artf,
   slgs_logo,
   asthma,
-  heart
+  heart,
+  IMG_6915
 } from "../assets";
 
 import {
@@ -598,7 +599,7 @@ export const projects = [
     //link: "",
     image: heart,
     content:
-      "Implemented CNN architectures integrated with Particle Swarm Optimisation Algorithm to classify skin lesion images as malignant or benign.",
+      "Built an AI-powered Digital Twin Platform for Cardiology using XAI and GAN-based data augmentation, achieving 93.3% diagnostic accuracy with ResNet50.",
     stack: [
       {
         id: "icon-1",
@@ -833,7 +834,7 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/sana-ayesha-7a54b1218/",
+    link: "https://www.linkedin.com/in/sana-ayesha-qazi-7a54b1218/",
   },
   {
     id: "social-media-2",
